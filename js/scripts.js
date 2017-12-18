@@ -10,6 +10,6 @@ var paragraphs = $('p');
 	$(element).append(button);
 });
 $('button').click(function() {
-	alert($(this).attr("data-tmp"));
+	alert($(this).attr('data-tmp'));
 });
 
